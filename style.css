@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
 *{
   margin: 0;
   padding: 0;
@@ -5,7 +9,13 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Indie Flower', cursive , sans-serif;
+  background-image: url('./images/photo-1553356084-58ef4a67b2a7.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
 }
 
 i, svg{
@@ -20,11 +30,11 @@ i, svg{
 }
 
 .kick-pad{
-  background: rgb(160, 211, 224);
+  background: rgb(116, 227, 255);
 }
 
 .snare-pad{
-  background: rgb(224, 160, 208);
+  background: rgb(215, 147, 248);
 }
 
 .hihat-pad {
@@ -50,6 +60,7 @@ i, svg{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 1.5rem;
 }
 
 .hihat-track, .snare-track, .kick-track{
